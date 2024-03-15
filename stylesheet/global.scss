@@ -1,0 +1,29 @@
+*,*::after,*::before{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+main{
+    width: 100%;
+    // overflow-y: hidden;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+section,header,footer,article,aside{
+    display: flex;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
